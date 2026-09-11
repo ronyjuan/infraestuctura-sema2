@@ -13,16 +13,21 @@ BD
 
 # Indicaciones
 
+## Configuración Inicial
+
+Antes de levantar los servicios, es necesario crear un archivo `.env` en la raíz del proyecto para definir las credenciales y el mensaje. El archivo debe tener esto:
+
+```env
+MESSAGE=Hola, soy Rony Fabrizio Luján Holguín
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=mysecretpassword
+POSTGRES_DB=db_laboratorio
+```
+
 ## Comandos
 
 ```bash
 docker compose up -d
-```
-
-## Configuración por entorno
-
-```
-MESSAGE=<Colocar nombre>
 ```
 
 ## Respuestas

@@ -40,3 +40,5 @@ Tipos de volúmenes en Docker:
 Volumes: Gestionados por Docker son la mejor opción para bases de datos
 Bind mounts: Conectan una ruta específica de tu computadora al contenedor
 tmpfs mounts: Se guardan solo en la memoria RAM
+
+![Captura de API](infrasem2.png).
